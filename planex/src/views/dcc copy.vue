@@ -5,7 +5,7 @@
       <v-divider></v-divider>
       <v-stepper-step :complete="tela > 2" step="2"> Respostas </v-stepper-step>
       <v-divider></v-divider>
-      <v-stepper-step :complete="tela > 3" step="3"> resultados </v-stepper-step>
+      <v-stepper-step :complete="tela > 3" step="3"> Resultados </v-stepper-step>
       <v-divider></v-divider>
       <v-stepper-step :complete="tela > 4" step="4"> Teste T </v-stepper-step>
       <v-divider></v-divider>

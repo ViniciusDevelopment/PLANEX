@@ -3,7 +3,7 @@
     <v-stepper-header>
       <v-stepper-step :complete="tela > 1" step="1"> Variaveis </v-stepper-step>
       <v-divider></v-divider>
-      <v-stepper-step :complete="tela > 2" step="2"> resultados </v-stepper-step>
+      <v-stepper-step :complete="tela > 2" step="2"> Resultados </v-stepper-step>
       <v-divider></v-divider>
       <v-stepper-step :complete="tela > 3" step="3"> Teste T </v-stepper-step>
       <v-divider></v-divider>
