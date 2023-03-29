@@ -18,6 +18,8 @@ CORS(app, resources={"*": {"origins": "*"}})
 def hello():
     return 'Hello, World!'
     
+
+    
 @app.route('/matrix/<fatores>/<replicadas>',methods=['GET'])
 def matrix(fatores,replicadas):
     alfa = 0.05
